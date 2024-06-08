@@ -9,13 +9,3 @@ function createColorString() {
 }
 
 console.log(createColorString());
-
-function createColorString1() {
-  return colors
-    .filter(
-      (color) => color === "черный" || color === "красный" || color === "желтый"
-    )
-    .join("-");
-}
-
-console.log(createColorString1());
